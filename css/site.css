@@ -1,0 +1,22 @@
+img{
+    max-width: 90%; 
+    max-height: 90%; 
+}
+
+.address{
+   font-size: .8rem;  
+}
+
+/* when on screen and width is 768 or higher make text 1 rem*/
+@media only screen and (min-width: 768px){
+    .address{
+        font-size: 1rem;  
+     }
+}
+
+/* when on print screen make text 1 rem*/
+@media print{
+    .address{
+        font-size: 1rem;
+    }
+}
